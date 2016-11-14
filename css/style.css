@@ -46,7 +46,7 @@ h1 {
 .box-box {
 	display: flex;
 	justify-content: center;
-
+	flex-wrap: wrap;
 }
 button {
 	height: 33px;
@@ -55,4 +55,12 @@ button {
 	border: 1px solid grey;
 	border-radius: 2px;
 	margin: 35px 0 0 0;
+}
+
+@media (max-width: 800px) {
+	.box {
+		height: 160px;
+		width: 160px;
+		margin: 10px 10px;
+	}
 }
